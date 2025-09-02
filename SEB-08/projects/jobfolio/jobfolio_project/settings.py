@@ -76,7 +76,11 @@ WSGI_APPLICATION = 'jobfolio_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'jobfolio',
+        'USER': 'postgres',
+        'PASSWORD': 'Malak123',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
